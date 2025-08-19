@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuldeep Sahu - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f4f4f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+      animation: bounce 2s infinite alternate;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      animation: fadeInDown 2s;
+    }
+
+    header p {
+      margin: 5px 0;
+      animation: fadeInUp 2s;
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: #2980b9;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd59;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 1s ease-out;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      margin: 5px 0;
+      background: #27ae60;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .btn:hover {
+      background: #1e8449;
+      transform: scale(1.05);
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Replace profile.jpg with your actual photo -->
+    <img src="WhatsApp Image 2025-08-18 at 19.59.55_f8489000.jpg" alt="Kuldeep Sahu">
+    <h1>Kuldeep Sahu</h1>
+    <p>Bhopal, Madhya Pradesh | 📞 9302785266 | 📧 
+      <a href="mailto:ramhitsahu291@gmail.com" style="color:white;">Email Me</a>
+    </p>
+    <p>
+      <a class="btn" href="http://www.linkedin.com/in/kuldeep-sahu-35a97b256" target="_blank">LinkedIn</a>
+      <a class="btn" href="https://github.com/kuldeepsahu9" target="_blank">GitHub</a>
+    </p>
+  </header>
+
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certificates">Certificates</a>
+  </nav>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Oriental College Of Technology, Bhopal</strong> – Electronics & Communication Engg. (2022–2026) | CGPA: 7.14</li>
+      <li><strong>Class XII:</strong> Govt. Higher Secondary School – 80.4% (2021–2022)</li>
+      <li><strong>Class X:</strong> Govt. Higher Secondary School – 91.5% (2019–2020)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Java, JavaScript</li>
+      <li>Web Technologies: HTML, CSS</li>
+      <li>Problem Solving: Solved 150+ DSA problems</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Weather Forecast Web App:</strong> Real-time weather info using API (HTML, CSS, JS) → <a href="https://github.com/kuldeepsahu9/WeatherApp" target="_blank">GitHub</a></li>
+      <li><strong>Women's Safety Device:</strong> Arduino + GSM + GPS wearable safety system → 
+        <a href="https://www.linkedin.com/posts/kuldeep-sahu-35a97b256_womenssafety-innovationforgood-techforsafety-activity-7330926042192203776-WCX_?utm_source=share&utm_medium=member_android" target="_blank">Details</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>1st Rank in Problem Solving on GeeksforGeeks Portal (Institution level)</li>
+      <li>Technical Scripter at GeeksforGeeks with 800+ views</li>
+      <li>Solved 150+ DSA problems</li>
+      <li>Enhanced & improved 25+ articles on GFG</li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Java Data Structures</li>
+      <li>Digital 301 – Nasscom</li>
+      <li>Java Web Development</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Kuldeep Sahu | Built with ❤ using HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script>
+    // Section scroll animation
+    const sections = document.querySelectorAll("section");
+    const revealSections = () => {
+      sections.forEach(sec => {
+        const rect = sec.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          sec.classList.add("visible");
+        }
+      });
+    };
+    window.addEventListener("scroll", revealSections);
+    window.addEventListener("load", revealSections);
+  </script>
+</body>
+</html>
